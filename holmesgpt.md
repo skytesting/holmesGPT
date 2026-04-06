@@ -4,7 +4,7 @@
 
 ## Summary
 
-The **_HolmesGPT_** is an AI agent purpose-built for production observability and incident response. **The SRE tool**, Open-source SRE agent for investigating production incidents across any infrastructure — Kubernetes, VMs, cloud services, databases, and more.There is many option for installation.In this document we will explore the python SDK, meaning not consumming resources in your cluster, just using the cli running on your pc.Using the **.kube/config** to the python communicate with kubernetes api.
+The **_HolmesGPT_** is an AI agent purpose-built for production observability and incident response. **The SRE tool**, Open-source SRE agent for investigating production incidents across any infrastructure — Kubernetes, VMs, cloud services, databases, and more.There is many option for installation.In this document we will explore the python SDK, meaning not consumming resources in your cluster, just using the cli running on your pc.Using the **.kube/config** to the python communicate with kubernetes api.[HolmesGPT](https://holmesgpt.dev/latest/ "SRE tooling")
 
   
 
