@@ -10,18 +10,19 @@ The **_HolmesGPT_** is an AI agent purpose-built for production observa
 
 ## What you will need
 
-1. LLM configured (you need to use the own subscription eg.MDSN subscription)
+1. LLM configured ( :pushpin: **Important** you need to use the own subscription eg.MDSN subscription)
 
 -  Azure portal>Microsoft Foundry>Use with Foundry>Create or using [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >Create
 -  Deploy the model [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal")>Models+Endpoints>+Deploy model (choose gpt-4.1 was used in this tuto)
 -  Get the information(Name+Api version: Going to [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >My assests> Models+Endpoints 
 
-2. Ensuring the installed [Python](https://www.python.org/ "lastest is good") 
+2. Ensuring python is installed running:
 
 ```console
-11:08:10_$ python --version
+python --version
 Python 3.13.13
 ```
+If not please follow the guide for intallation [Python](https://www.python.org/ "lastest is good") 
 
 3. Python libraries manager [install poetry](https://python-poetry.org/docs/#installing-with-the-official-installer "installing poetry")
 - ```curl -sSL https://install.python-poetry.org | python3 - ```  (easy lazy mode)
@@ -45,13 +46,13 @@ Python 3.13.13
    export AZURE_API_KEY="your-azure-api-key"
 ```
 
-7. Validate pod configuration is accurate: --model="provider/name-of-model"
+:exclamation: **Important**
+
+7. Validate holmes has the correct model info :heavy_check_mark: **Check** : --model="provider/name-of-model"
 
 ```bash
 poetry run holmes ask "what pods are failing?" --model="azure/gpt-mister"
 ```
-
-  
 
 ## Confirm one real scenario: The node were deleted, but i dont know what/why was deleted!
 
