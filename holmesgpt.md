@@ -14,9 +14,14 @@ The **_HolmesGPT_** is an AI agent purpose-built for production observa
 
 -  Azure portal>Microsoft Foundry>Use with Foundry>Create or using [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >Create
 -  Deploy the model [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal")>Models+Endpoints>+Deploy model (choose gpt-4.1 was used in this tuto)
-- Get the information(Name+Api version: Going to [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >My assests> Models+Endpoints 
+-  Get the information(Name+Api version: Going to [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >My assests> Models+Endpoints 
 
 2. Ensuring the installed [Python](https://www.python.org/ "lastest is good") 
+
+```console
+11:08:10_$ python --version
+Python 3.13.13
+```
 
 3. Python libraries manager [install poetry](https://python-poetry.org/docs/#installing-with-the-official-installer "installing poetry")
 - ```curl -sSL https://install.python-poetry.org | python3 - ```  (easy lazy mode)
