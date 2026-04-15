@@ -10,7 +10,7 @@ The **_HolmesGPT_** is an AI agent purpose-built for production observa
 
 ## What you will need
 
-1. LLM configured
+1. LLM configured (you need to use the own subscription eg.MDSN subscription)
 
 - Create: azure portal>Microsoft Foundry>Use with Foundry>Create or using [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >Create
 - Get the information(Name+Api version: Going to [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >My assests> Models+Endpoints 
