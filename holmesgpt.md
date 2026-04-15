@@ -15,10 +15,10 @@ The **_HolmesGPT_** is an AI agent purpose-built for production observa
 - Create: azure portal>Microsoft Foundry>Use with Foundry>Create or using [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >Create
 - Get the information(Name+Api version: Going to [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >My assests> Models+Endpoints 
 
-2. Python  
+2. Ensuring the installed [Python](https://www.python.org/ "lastest is good") 
 
 3. Python libraries manager [install poetry](https://python-poetry.org/docs/#installing-with-the-official-installer "installing poetry")
-- ```curl -sSL https://install.python-poetry.org | python3 - ```  (easy)
+- ```curl -sSL https://install.python-poetry.org | python3 - ```  (easy lazy mode)
 
 4. Git to clone the HolmesGPT repository and install the requirement python packages
 - ```git clone https://github.com/HolmesGPT/holmesgpt.git```
