@@ -12,8 +12,7 @@ The **_HolmesGPT_** is an AI agent purpose-built for production observa
 
 1. LLM configured ( :pushpin: **Important** you need to use the own subscription eg.MDSN subscription)
 
--  Azure portal>Microsoft Foundry>Use with Foundry>Create or using [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >Create
--  Deploy the model [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal")>Models+Endpoints>+Deploy model (choose gpt-4.1 was used in this tuto)
+-  Create reaching [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >Model Catalog>search for gpt-4.1(choose gpt-4.1 was used in this tuto)>Use this model
 -  Get the information(Name+Api version: Going to [ai foundry portal](https://ai.azure.com/foundry "azure foundry ai portal") >My assests> Models+Endpoints 
 
 2. Ensuring python is installed running:
